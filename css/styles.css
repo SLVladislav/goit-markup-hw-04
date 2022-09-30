@@ -245,7 +245,8 @@ p {
 .antena {
   display: flex;
   justify-content: center;
-  padding: 25px 0;
+  align-items: center;
+  height: 120px;
   margin-bottom: 30px;
 
   background-color: var(--section-item-color);
@@ -356,6 +357,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .icons-svg.list {
@@ -363,7 +365,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 0 32px 30px 32px;
+
 }
 
 .icons {
@@ -410,7 +412,8 @@ img {
   display: flex;
   width: 170px;
   height: 92px;
-  padding: 23px 60px;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   margin: 0;
 
